@@ -1,0 +1,80 @@
+.aboutus {
+    width: 1440px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+padding: 130px 0;
+   }
+ 
+.aboutus__block {
+    width: 675px;
+    height: 736px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}   
+.aboutus__Title {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 58.5px;
+    letter-spacing: 0.36px;
+    width: 521px;
+    height: 118px;
+}
+
+.aboutus__text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 32.4px;
+    letter-spacing: 0.36px;
+    width: 670px;
+    height: 98px;
+}
+
+.aboutus__standards {
+    display: flex;
+    gap: 20px;
+}
+
+.aboutus__icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus__standardsContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutus__standardsTitle {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.36px;
+}
+
+.aboutus__standardsText {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    letter-spacing: 0.36px;
+    width: 539px;
+    height: 65px;
+}
+
+.shop {
+    background-color: var(--color-green);
+    margin-left: 0;
+}
+
+.shopnow {
+    color: #ffffff;
+}
+

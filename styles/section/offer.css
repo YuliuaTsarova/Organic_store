@@ -1,0 +1,46 @@
+.offer {
+    display: flex;
+    justify-content: space-evenly;    
+    gap: 20px;
+    padding: 137px 0;
+    width: 1440px;
+}
+
+.offer__fruits {
+    width: 665px;
+    height: 378px;
+    background-image: url(../../images/offer/fruits.svg);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+.offer__supTitle {  
+    padding-left: 55px;
+}
+
+.offer__Title {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0.36px;    
+    width: 264px;
+    height: 104px;
+    padding-left: 55px;
+}
+
+.offer__vegetables {
+    width: 665px;
+    height: 378px;
+    background-image: url(../../images/offer/vegetables.svg);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subcolor {
+    color: #ffffff;
+}
+
