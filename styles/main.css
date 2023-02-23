@@ -8,6 +8,7 @@
 @import url(section/aboutus.css);
 @import url(section/products.css);
 @import url(section/testimonial.css);
+@import url(section/alloffer.css);
 
 body {
     font-family: 'Roboto', sans-serif;
