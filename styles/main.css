@@ -9,6 +9,7 @@
 @import url(section/products.css);
 @import url(section/testimonial.css);
 @import url(section/alloffer.css);
+@import url(section/eco.css);
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -30,4 +31,11 @@ body {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
+}
+
+.h1 {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 32.2px;
+    letter-spacing: 0.36px;
 }

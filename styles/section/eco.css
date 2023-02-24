@@ -1,0 +1,52 @@
+.eco {
+    width: 1440px;
+    height: 704.13px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.eco__image {
+    width: 720px;
+    height: 704px;    
+}
+
+.eco__content {
+    width: 720px;
+    height: 623px;
+    border-radius: 20px;
+    background-color: #ffffff;    
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 60px;
+}
+
+.eco__block {
+    width: 620px;
+    height: 528px;
+    margin: 40px 40px 55.11px 60px;  
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.eco__title {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 58.5px;
+    letter-spacing: 0.36px;
+    width: 301px;
+    margin-bottom: 30px;
+}
+
+.eco__text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;    
+    letter-spacing: 0.36px;
+    color: var(--color-grey);
+    width: 620px;
+    margin: 5px 0;
+}
