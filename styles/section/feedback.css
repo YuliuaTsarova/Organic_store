@@ -1,0 +1,45 @@
+.feedback {
+    width: 1440px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback__block {
+    width: 1380px;
+    height: 320px;
+    border-radius: 30px;
+    background-image: url(../../images/feedback/backgroundfeedback.svg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feedback__title {
+    width: 323px;
+    height: 120px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.36px;
+    color: #ffffff;
+}
+
+.feedback__imput {
+    width: 290px;
+    height: 22px;
+    border-radius: 16px;
+    border: 1px solid #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.36px;
+    padding: 30px;
+}
+
+.feedback__email {
+    display: flex;
+    gap: 10px;
+}

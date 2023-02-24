@@ -10,6 +10,8 @@
 @import url(section/testimonial.css);
 @import url(section/alloffer.css);
 @import url(section/eco.css);
+@import url(section/catalogue.css);
+@import url(section/feedback.css);
 
 body {
     font-family: 'Roboto', sans-serif;
