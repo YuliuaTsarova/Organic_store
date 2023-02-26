@@ -70,8 +70,7 @@
 }
 
 .button:hover {
-   background-color:var(--color-lightgreen);
-   border: 5px double var(--color-yellow); 
+   background-color:var(--color-lightgreen);   
 }
 
 .round__arrow:hover {
