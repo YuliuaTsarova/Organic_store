@@ -1,11 +1,11 @@
 .products {
+    width: 1440px;
     padding: 120px 0;
-
 }
 .products__content {
     text-align: center;
     width: 1440px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 .products__Title {
@@ -19,8 +19,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     gap: 20px;
+    padding-top: 20px;
 }
 
 .products__card {
@@ -149,3 +149,8 @@
     top: 2px;
     left: 2px;
 }
+
+@media (max-width: 1000px) {
+    
+}
+    

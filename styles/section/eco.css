@@ -8,14 +8,14 @@
 
 .eco__image {
     width: 720px;
-    height: 704px;    
+    height: 704px;
 }
 
 .eco__content {
     width: 720px;
     height: 623px;
     border-radius: 20px;
-    background-color: #ffffff;    
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     position: absolute;
@@ -25,10 +25,10 @@
 .eco__block {
     width: 620px;
     height: 528px;
-    margin: 40px 40px 55.11px 60px;  
+    margin: 40px 40px 55.11px 60px;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .eco__title {
@@ -44,9 +44,30 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    line-height: 32.4px;    
+    line-height: 32.4px;
     letter-spacing: 0.36px;
     color: var(--color-grey);
     width: 620px;
     margin: 5px 0;
+}
+
+@media (max-width: 800px) {
+    .eco {
+        position: relative;
+    }
+
+    .eco__content {
+
+        position: absolute;
+        right: 25%;
+    }
+
+    .eco__title {
+        width: 602px;
+    }
+
+    .eco__text {
+        font-size: 20px;
+    }
+    
 }
