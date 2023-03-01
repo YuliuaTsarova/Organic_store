@@ -1,3 +1,6 @@
+.header {
+    width: 100%;
+}
 .header__block {
     display: flex;
     align-items: center;

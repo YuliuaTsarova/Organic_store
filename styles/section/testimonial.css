@@ -66,6 +66,7 @@
 .testimonial__edge {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 26px;
 }
 
@@ -119,5 +120,27 @@
 
     .testimonial__circlText {
         font-size: 20px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .testimonial__image {
+        width: 135px;
+        height: 135px;
+    }
+    .review {
+        font-size: 180%;           
+    }
+    .testimonial__text {
+        font-size: 28px;
+    }
+
+    .testimonial__clientType {
+        font-size: 19px;
+    }
+
+    .testimonial__circlText {
+        font-size: 25px;
     }
 }

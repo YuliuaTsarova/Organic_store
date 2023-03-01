@@ -123,3 +123,42 @@
         width: 545px;
     }
 }
+
+@media (max-width: 768px) {
+
+.aboutus {
+    padding: 10px 0;
+}
+
+.aboutus__block {
+    width: 1000px;
+    gap: 30px;
+}
+
+.subtitle {
+    font-size: 56px;
+    font-weight: 500;
+}
+.aboutus__Title {
+    width: 1000px;
+    height: 80px;
+}
+.aboutus__text {
+    font-size: 30px;
+    text-align: center;
+}
+.aboutus__standards {
+    width: 1000px;
+}
+.aboutus__icon {
+    width: 120px;
+    height: 120px;
+}
+.aboutus__standardsTitle {
+    font-size: 35px;
+}
+.aboutus__standardsText {
+    width: 800px;
+    font-size: 25px;
+}
+}

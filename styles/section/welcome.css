@@ -2,6 +2,8 @@
     height: 913px;
     width: 1440px;
     background-image: url(../../images/welcome/backgroundimage.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
     display: flex;
     flex-direction: column;
     justify-content: center;

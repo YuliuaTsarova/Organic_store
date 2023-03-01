@@ -69,5 +69,27 @@
     .eco__text {
         font-size: 20px;
     }
-    
+
+}
+
+@media (max-width: 640px) {
+    .eco {
+        position: relative;
+    }
+
+    .eco__content {        
+        position: absolute;
+        right: 35%;
+    }
+
+    .eco__title {
+        width: 602px;
+        margin-bottom: 15px;
+    }
+
+    .eco__text {
+        width: 820px;
+        font-size: 30px;
+        margin: 10px 0 10px 0;
+    }
 }
