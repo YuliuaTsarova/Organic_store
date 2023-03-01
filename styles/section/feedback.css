@@ -1,5 +1,4 @@
 .feedback {
-    width: 1440px;
     height: 380px;
     display: flex;
     justify-content: center;
@@ -14,6 +13,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-repeat: no-repeat;
+    
 }
 
 .feedback__title {
@@ -44,8 +45,64 @@
     gap: 10px;
 }
 
+/*
 @media (max-width: 800px) {
     .feedback__imput {
         font-size: 20px;
     }
 }
+*/
+
+@media (max-width: 1000px) {
+    .feedback__block {
+        flex-direction: column;
+       
+    }
+
+    .feedback__title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .feedback{
+        height: 570px;
+    }
+
+    .feedback__block {
+        height: 420px;
+        background-image: none;  
+        background-image: url(../../images/aboutus/citruses.svg);    
+    }
+
+    .feedback__title {
+        color: var(--color-green);
+    }
+
+    .feedback__imput {      
+        border: 1px solid ;    
+    }
+
+    .feedback__email {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 365px) {
+    .feedback{
+        height: 600px;
+    }
+
+    .feedback__block {
+        height: 520px;
+    }
+
+    .feedback__title {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    .feedback__imput {
+        width: 200px;
+    }
+} 

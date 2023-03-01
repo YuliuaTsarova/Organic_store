@@ -36,10 +36,11 @@
     top: -7px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1040px) {
     .nav {
        /* display: none;*/
-        max-height:0 ;        
+        max-height:0 ;  
+        width: 400px;      
         overflow: hidden;
         position: absolute;
         background-color: var(--color-lightgreen);
@@ -90,3 +91,23 @@
     }
 
 }
+
+@media (max-width: 590px) {
+    .nav {
+        margin-top: 730px;
+    }
+}
+
+@media (max-width: 400px) {
+    .nav {
+        margin-top: 250px;
+    }
+    
+} 
+
+@media (max-width: 340px) {
+    .nav {
+        max-height:0 ;  
+       width: 340px;
+    }
+} 

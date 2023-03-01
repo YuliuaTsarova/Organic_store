@@ -1,5 +1,4 @@
 .eco {
-    width: 1440px;
     height: 704.13px;
     display: flex;
     align-items: center;
@@ -19,7 +18,7 @@
     display: flex;
     align-items: center;
     position: absolute;
-    right: 60px;
+    right: 60px;   
 }
 
 .eco__block {
@@ -52,44 +51,77 @@
 }
 
 @media (max-width: 800px) {
-    .eco {
-        position: relative;
+    .eco__image {
+        display: none;
     }
-
     .eco__content {
-
-        position: absolute;
-        right: 25%;
+        position: relative;
+        margin-left: 60px;
     }
-
-    .eco__title {
-        width: 602px;
-    }
-
-    .eco__text {
-        font-size: 20px;
-    }
-
 }
 
-@media (max-width: 640px) {
+@media (max-width: 684px) {
     .eco {
-        position: relative;
+        height: 720px;
     }
-
-    .eco__content {        
-        position: absolute;
-        right: 35%;
+    .eco__content {
+        height: 600px;
+        bottom: 10px;
     }
-
-    .eco__title {
-        width: 602px;
-        margin-bottom: 15px;
-    }
-
     .eco__text {
-        width: 820px;
-        font-size: 30px;
-        margin: 10px 0 10px 0;
+        width: 500px;
+     
+    }
+}
+
+@media (max-width: 580px) {
+    .eco {
+        height: 720px;
+    }
+    .eco__content {
+        
+        bottom: 50px;
+    }
+    .eco__text {
+        width: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .eco {
+        height: 850px;
+    }
+    .eco__content {
+        
+        bottom: 100px;
+    }
+    .eco__text {
+        width: 300px;
+    }
+}
+
+@media (max-width: 380px) {
+    .eco {
+        height: 950px;
+    }
+    .eco__content {
+       
+        bottom: 150px;
+    }
+    .eco__text {
+        width: 250px;
+    }
+}
+
+@media (max-width: 360px) {    
+    .eco {
+        height: 1050px;
+    }
+    .eco__content {
+       margin-left: 35px;  
+       bottom: 180px;     
+    }
+    .eco__title {
+        width: 290px;
     }
 }

@@ -1,5 +1,4 @@
-.products {
-    width: 1440px;
+.products {    
     padding: 120px 0;
 }
 
@@ -53,8 +52,9 @@
 }
 
 .products_image {
-    width: 387px;
-    height: 378px;
+   width: 100%;
+   /* width: 387px;*/
+   /* height: 378px;*/
 }
 
 .products__name {
@@ -151,19 +151,58 @@
     left: 2px;
 }
 
-@media (max-width: 640px) {
-   
-    
-    .pistachio {
-        display:none;
+@media (max-width: 500px) {
+    .products__card {
+        width: 100%;
+        
+        margin: 0 30px;
     }
-
-    .huselnut {
-        display:none;
+    .product__cardWrapper {
+        width: 100%;
     }
-
-    .products__name {
-        font-size: 28px;        
+    .products__type {
+        width: 40%;
+    }
+    .products__image {
+   width: 85%;
+     }
+.hr {
+    width: 85%;
+}
+     .rating {
+        margin-left: 20px;
+     }
+  
+}
+@media (max-width: 425px) {
+    .products__card {
+        height: 550px;
+    }
 }
 
+@media (max-width: 450px) {
+
+    .products__priceinfo {
+       flex-wrap: wrap;
+       justify-content: center;
+       width: 80%;
+    }
+    .rating {
+        margin-left:0;
+     }
+    .tomato {
+       margin: 0 20px; 
+    }
+}
+
+@media (max-width: 375px) {
+    .products__card {
+        height: 500px;
+    }
+}
+
+@media (max-width: 320px) {
+    .products__card {
+        height: 470px;
+    }
 }

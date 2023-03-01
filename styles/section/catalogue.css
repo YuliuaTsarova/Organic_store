@@ -1,10 +1,10 @@
 .catalogue {
-    width: 1440px;
     height: 860px;
     background-color: #EFF6F1;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    align-content: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -15,6 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .food {
@@ -45,8 +46,13 @@
     color: #ffffff;
 }
 
-@media (max-width: 640px) {
-    .catalogue__button {
-        font-size: 35px;
+@media (max-width: 1379px) {
+    .catalogue {
+        height: 1220px;
+    }
+}
+@media (max-width: 919px) {
+    .catalogue {
+        height: 1800px;
     }
 }

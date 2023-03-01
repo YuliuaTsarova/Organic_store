@@ -1,11 +1,12 @@
 .header {
     width: 100%;
 }
+
 .header__block {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #ffffff;  
+    background-color: #ffffff;
     width: 1400px;
     padding: 40px 30px;
     position: fixed;
@@ -13,10 +14,10 @@
 }
 
 .header__blockNav {
-    display: flex;    
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 120px;    
+    gap: 120px;
 }
 
 .logo {
@@ -36,8 +37,8 @@
 
 .nav {
     display: flex;
-    gap: 40px; 
-     
+    gap: 40px;
+
 }
 
 .nav__link {
@@ -54,25 +55,25 @@
 
 .header__blockBasket {
     border: 1px solid var(--color-lightgrey);
-    border-radius:50px;
+    border-radius: 50px;
     height: 70px;
-    width: 159px;    
+    width: 159px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-right: 30px;
-   
+
 }
 
 .round {
     width: 56px;
     height: 56px;
-    border: 1px solid  var(--color-green);
+    border: 1px solid var(--color-green);
     border-radius: 50%;
     background-color: var(--color-green);
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
 .basket {
@@ -86,17 +87,85 @@
 }
 
 .round:hover {
-background-color: var(--color-yellow);
-border: 1px solid  var(--color-yellow);
+    background-color: var(--color-yellow);
+    border: 1px solid var(--color-yellow);
 
 }
 
-@media (max-width: 900px) {
-    .nav__link {
-        font-size: 25px;
+@media (max-width: 1410px) {
+    .header__blockBasket {
+        margin-right: 100px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1340px) {
+    .header__blockBasket {
+        margin-right: 200px;
+    }
+}
 
+@media (max-width: 1240px) {
+    .header__blockBasket {
+        margin-right: 300px;
+    }
+}
+
+@media (max-width: 1140px) {
+    .header__blockBasket {
+        margin-right: 400px;
+    }
+}
+
+@media (max-width: 1040px) {
+    .header__blockBasket {
+        margin-right: 500px;
+    }
+}
+@media (max-width: 940px) {
+    .header__blockBasket {
+        margin-right: 600px;
+    }
+}
+
+@media (max-width: 840px) {
+    .header__blockBasket {
+        margin-right: 700px;
+    }
+}
+@media (max-width: 740px) {
+    .header__blockBasket {
+        margin-right: 850px;
+    }
+}
+
+@media (max-width: 590px) {
+
+    .header__block {
+        flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    }
+    .header__blockBasket {
+        margin: 0;
+    }
+} 
+
+
+@media (max-width: 400px) {
+
+    .header__blockNav {
+        flex-direction: column;
+        width: 315px;
+        gap: 20px;
+    }
+
+    .header__blockBasket {
+      margin-left: 80px;
+    }
+}
+
+@media (max-width: 360px) {
+    .header__block {
+        padding: 40px 0;
+    }
 }

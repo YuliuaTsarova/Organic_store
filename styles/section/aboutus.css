@@ -1,5 +1,4 @@
 .aboutus {
-    width: 1440px;
     background-color: #f9f9f9;
     display: flex;
     justify-content: center;
@@ -82,83 +81,87 @@
     color: #ffffff;
 }
 
-@media (max-width: 900px) {
-    .aboutus {
-        padding: 70px 0;
-    }
-
-    .aboutus__text {
-        font-size: 20px;
-    }
-
-    .aboutus__standardsText {
-        font-size: 19px;
-    }
-
-    .aboutus__block {
-        width: 850px;
-        height: 850px;
-    }
-}
-
-@media (max-width: 800px) {
+@media (max-width: 1350px) {
     .citruses {
         display: none;
     }
+}
 
+@media (max-width: 720px) {
     .aboutus__block {
         align-items: center;
-        width: 700px;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
     }
 
     .aboutus__text {
-        width: 100%;
-        margin-bottom: 30px;
+        width: 521px;
+        height: 108px;
+        margin-bottom: 50px;
+    }
+
+    .aboutus__standards {
+        flex-direction: column;
+        margin-bottom: 130px;
+    }
+
+    .aboutus__icon {
+        padding: 25px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .aboutus {
+        padding: 270px 0;
+    }
+
+    .aboutus__block {
+        gap: 20px;
+    }
+
+    .aboutus__Title {
+        width: 350px;
+        height: 218px;
+        text-align: center;
+    }
+
+    .aboutus__text {
+        width: 360px;
+        height: 150px;
+        margin-bottom: 40px;
+    }   
+
+    .aboutus__standardsContent {
+        width: 360px;
+        height: 150px;
     }
 
     .aboutus__standardsText {
-        width: 545px;
+        width: 360px;
+    }
+
+    .shop {
+        margin-top: 50px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 375px) {
+    .aboutus {
+        padding: 370px 0;
+    }
+    .aboutus__block {
+        gap: 60px;
+    }
+    .aboutus__text {
+        width: 270px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
 
-.aboutus {
-    padding: 10px 0;
-}
+    .aboutus__standardsContent {
+        width: 270px;
+        height: 150px;
+    }
 
-.aboutus__block {
-    width: 1000px;
-    gap: 30px;
-}
-
-.subtitle {
-    font-size: 56px;
-    font-weight: 500;
-}
-.aboutus__Title {
-    width: 1000px;
-    height: 80px;
-}
-.aboutus__text {
-    font-size: 30px;
-    text-align: center;
-}
-.aboutus__standards {
-    width: 1000px;
-}
-.aboutus__icon {
-    width: 120px;
-    height: 120px;
-}
-.aboutus__standardsTitle {
-    font-size: 35px;
-}
-.aboutus__standardsText {
-    width: 800px;
-    font-size: 25px;
-}
+    .aboutus__standardsText {
+        width: 270px;
+    }
 }
