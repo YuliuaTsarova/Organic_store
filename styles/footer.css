@@ -182,6 +182,10 @@
         padding: 0 0 40px 0;
     }
 
+    .footer__contact {
+        align-items: center;
+    }
+
     .center {
         width: 300px;
     }

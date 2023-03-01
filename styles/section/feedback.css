@@ -45,14 +45,6 @@
     gap: 10px;
 }
 
-/*
-@media (max-width: 800px) {
-    .feedback__imput {
-        font-size: 20px;
-    }
-}
-*/
-
 @media (max-width: 1000px) {
     .feedback__block {
         flex-direction: column;
@@ -104,5 +96,6 @@
     }
     .feedback__imput {
         width: 200px;
+        font-size: 16px;
     }
 } 
